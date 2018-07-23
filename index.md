@@ -6,6 +6,5 @@
 
 ### 2018
 {% for post in site.categories.all %}
-[{{post.title}}]({{ post.url }})  {{post.time}}  
+[{{post.title}}]({{ post.url }})-{{post.time}}
 {% endfor %}
-
