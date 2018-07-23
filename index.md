@@ -5,6 +5,6 @@
 以下是全部活动索引：
 
 ### 2018
-{% for post in site.categories.all %}
-[{{post.title}}]({{ post.url }})-{{post.time}}
+{% for post in site.categories.2018 %}
+[{{post.title}}]({{ post.url }}) - {{post.time}}
 {% endfor %}
