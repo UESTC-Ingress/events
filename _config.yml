@@ -1,1 +1,6 @@
 theme: jekyll-theme-architect
+title: U.E.S.T.C. Events
+description: 泛成电活动索引
+markdown: redcarpet
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
