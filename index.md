@@ -6,5 +6,5 @@
 
 ### 2018
 {% for post in site.categories.2018 %}
-[{{post.title}}]({{ post.url }}) - {{post.time}}
+[{{post.title | markdownify }}]({{ post.url }}) - {{post.time}}
 {% endfor %}
